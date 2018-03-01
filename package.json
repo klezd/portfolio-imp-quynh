@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-imp-quynh",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "engines": {
+    "node": "9.3.x",
+	"npm": "5.6.x"
+  },
+  "scripts": {
+	"start": "node index.js",
+	"test": "mocha",
+	"postinstall": "bower install && grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxydao97/portfolio-imp-quynh.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Quynh Dao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roxydao97/portfolio-imp-quynh/issues"
+  },
+  "homepage": "https://github.com/roxydao97/portfolio-imp-quynh#readme"
+}
