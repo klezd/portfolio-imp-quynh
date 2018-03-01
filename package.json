@@ -9,8 +9,7 @@
   },
   "scripts": {
 	"start": "node index.js",
-	"test": "mocha",
-	"postinstall": "bower install && grunt build"
+	"test": "mocha"
   },
   "repository": {
     "type": "git",
